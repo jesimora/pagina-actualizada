@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+ h1
+ {
+    font-family: 'Montserrat', sans-serif; 
+    color: #D5006D; 
+    font-size: 4em; 
+    font-weight: bold; 
+    text-align: center; 
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(32, 33, 2, 0.1);
+    margin-top: 20px;
+    }    
