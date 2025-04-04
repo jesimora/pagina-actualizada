@@ -16,12 +16,22 @@
     <body>
         <style>
             head
-            {
-            
-      
-      
+            {.enlaces {
+  display: flex;
+  gap: 20px; /* Espacio entre los enlaces */
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #007bff;
+}
             }
+
+            
+
+            
             body{
+                
                 background-color: rgb(255, 208, 215);
                 font-family: 'Poppins', sans-serif; 
                 text-align: center;
@@ -66,7 +76,27 @@
 h5{
     font-size: 100px;color:rgb(235, 58, 149) ;font-family: fantasy ;
 }
-                
+.cuadro {
+    background: linear-gradient(45deg, #FFB6C1, #fff);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.cuadro h2 {
+    color: #D5006D;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    box-sizing: border-box width=160px ;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}          
 
       
 
@@ -91,7 +121,10 @@ h5{
         
               
             <h1>MAKEUP AND WELLNESS</h1>
-            <p> En Make Up and Wellness, sabemos que la verdadera belleza comienza con una piel radiante y saludable. Nuestra línea de skincare está diseñada para nutrir, proteger y rejuvenecer tu piel con ingredientes naturales y efectivos. Cada producto es una dosis de amor para tu rostro, creada para que te sientas fresca, hidratada y llena de confianza todos los días.
+            <p> En Make Up and Wellness, sabemos que la verdadera belleza comienza con una piel radiante y saludable.<br>
+                 Nuestra línea de skincare está diseñada para nutrir, proteger y rejuvenecer tu piel con ingredientes<br>
+                  naturales y efectivos. Cada producto es una dosis de amor para tu rostro, creada para que te sientas<br>
+                   fresca, hidratada y llena de confianza todos los días.
 
             Porque tu piel también es parte de tu bienestar, cuidarla nunca fue tan fácil… ¡ni tan adorable! 💖
             
@@ -99,35 +132,63 @@ h5{
             <nav>
                 <img src="../imagenes/logo.png" width="50px"/>
                 <br><br>
-                <a href="./pagina.html">Home</a> <a href="./nuestrahistoria.html">Nuestra Historia</a> <a href="./nuestrosproductos.html">¿Qué Vendemos?</a><br><br>
+                <div class="enlaces">
+                <a href="./pagina.html">Home</a> 
+                <a href="./nuestrahistoria.html">Nuestra Historia</a> 
+                <a href="./nuestrosproductos.html">¿Qué Vendemos?</a><br><br>
 
-                <a href="./maquillaje.html">Maquillaje</a> <a href="./skincare.html">Skincare</a> <a href="./haircare.html">Haircare</a> <a href="./wellnessytecnologia.html">Wellness y Tecnología</a>
+                <a href="./maquillaje.html">Maquillaje</a>
+                 <a href="./skincare.html">Skincare</a> 
+                 <a href="./haircare.html">Haircare</a> 
+                 <a href="./wellnessytecnologia.html">Wellness y Tecnología</a>
+                </div>
                 <h2>TODO LO QUE TU PIEL NECESITA</h2>
                 <h2>Skincare de la más alta calidad</h2>
             </nav>
         </header>
         <section>
             <h3>Tenemos un producto para cada una de tus necesidades</h3>
-            <h2>PIELES SENSIBLES</h2>
+            <div class="cuadro">
+                <h2>PIELES SENSIBLES</h2>
+            </div>
             <p>
-                Las pieles sensibles requieren productos que ofrezcan protección y confort, sin causar irritaciones. Nuestra línea de maquillaje está formulada con ingredientes suaves y respetuosos, que incluyen tecnologías que actúan como barreras para evitar reacciones adversas. Utilizamos innovadoras fórmulas hipoalergénicas y libres de fragancias, que garantizan un acabado perfecto sin comprometer la salud de tu piel. ¡La belleza también puede ser delicada!
-            </p>
+                Las pieles sensibles requieren productos que ofrezcan protección y confort, <br>
+                sin causar irritaciones. Nuestra línea de maquillaje está formulada con ingredientes<br>
+                suaves y respetuosos, que incluyen tecnologías que actúan como barreras para evitar <br>
+                reacciones adversas. Utilizamos innovadoras fórmulas hipoalergénicas y libres de<br>
+                fragancias, que garantizan un acabado perfecto sin comprometer la salud de tu piel. <br>¡La belleza también puede ser delicada!
+            </p><br>
             <img src="../imagenes/mujer 2.png" width="170"> 
-            <h2>PIELES SECAS</h2>
+        <br>
+            <div class="cuadro">
+                <br>
+                <h2>PIELES SECAS</h2>
+                <br>
+            </div>
             <p>
-                Para las pieles secas, hidratación y nutrición son clave. Gracias a la tecnología avanzada de nuestros productos, cada fórmula está enriquecida con activos hidratantes y humectantes que restauran la humedad de la piel durante todo el día. Los maquillajes con acabado luminoso y texturas suaves crean un look natural, a la vez que mantienen la piel hidratada y confortable. ¡Luce radiante sin preocuparte por la sequedad!
-
-
+                Para las pieles secas, hidratación y nutrición son clave. Gracias a la tecnología <br>
+                avanzada de nuestros productos, cada fórmula está enriquecida con activos hidratantes y <br>
+                humectantes que restauran la humedad de la piel durante todo el día. Los maquillajes con <br>
+                acabado luminoso y texturas suaves crean un look natural, a la vez que mantienen la piel<br>
+                 hidratada y confortable. ¡Luce radiante sin preocuparte por la sequedad!
             </p>
             <img src="../imagenes/mujer.png" width="170">
-
-            <h2>PIELES GRASAS</h2>
+        <br>
+            <div class="cuadro">
+                <h2>PIELES GRASAS</h2>
+                <br>
+            </div>
             <p>
-                La tecnología en nuestros productos para pieles grasas está diseñada para controlar el exceso de sebo sin comprometer el acabado de tu maquillaje. Gracias a la incorporación de fórmulas matificantes y de larga duración, nuestros productos absorben el exceso de grasa y mantienen tu rostro fresco durante horas. Además, nuestros maquillajes son de alta cobertura y resistentes a los brillos, asegurando una piel impecable y equilibrada durante todo el día.
-            </p>
+                La tecnología en nuestros productos para pieles grasas está diseñada para controlar el <br>
+                exceso de sebo sin comprometer el acabado de tu maquillaje.
+                Gracias a la <br>incorporación de fórmulas matificantes y de larga duración, nuestros productos<br>
+                absorben el exceso de grasa y mantienen tu rostro fresco durante horas. Además, nuestros maquillajes<br>
+                 son de alta cobertura y resistentes a los brillos,<br>
+                asegurando una piel impecable y equilibrada durante todo el día.
+            </p><br>
             <img src="../imagenes/pielgrasa.png" width="170"><br><br>
-
         </section>
+        
          <div id="video"> <section>
            
             <iframe width="650"
@@ -150,10 +211,10 @@ h5{
         <section>
             
             <p>
-                Desde los serums ultraligeros de Corea hasta las cremas de lujo francesas, seleccionamos fórmulas que se adaptan al clima colombiano y a todo tipo de piel.<br>
+                Desde los serums ultraligeros de Corea hasta las cremas de lujo francesas,<br> seleccionamos fórmulas que se adaptan al clima colombiano y a todo tipo de piel.<br>
                 <br>
                 <h2>🌸Marcas Destacadas🌸</h2>
-                🌟HydraGlow (Corea del Sur): Serums con ácido hialurónico y extracto de bambú, ideales para hidratación profunda en ciudades cálidas.HydraGlow (Corea del Sur):<br> Serums con ácido hialurónico y extracto de bambú, ideales para hidratación profunda en ciudades cálidas.<br><br>
+                🌟HydraGlow (Corea del Sur): Serums con ácido hialurónico y extracto de bambú, <br>ideales para hidratación profunda en ciudades cálidas.HydraGlow (Corea del Sur):<br> Serums con ácido hialurónico y extracto de bambú,<br> ideales para hidratación profunda en ciudades cálidas.<br><br>
 
                 🌟Lumière Paris (Francia): Cremas anti-contaminación con protección UV<br><br>
 
