@@ -18,9 +18,6 @@
             head
             {
             
-                
-      
-     
       
       
             }
@@ -30,7 +27,45 @@
                 text-align: center;
                 #video: align-content: :right;
                 #video2: align-content: :right;
-                #haerin: width: 300px;height: 100px;border-radius: 8px;
+              
+                .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: normal;
+  align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+h5{
+    font-size: 100px;color:rgb(235, 58, 149) ;font-family: fantasy ;
+}
                 
 
       
@@ -90,7 +125,7 @@
             <p>
                 La tecnología en nuestros productos para pieles grasas está diseñada para controlar el exceso de sebo sin comprometer el acabado de tu maquillaje. Gracias a la incorporación de fórmulas matificantes y de larga duración, nuestros productos absorben el exceso de grasa y mantienen tu rostro fresco durante horas. Además, nuestros maquillajes son de alta cobertura y resistentes a los brillos, asegurando una piel impecable y equilibrada durante todo el día.
             </p>
-            <img src="../imagenes/mujer.png" width="170"><br><br>
+            <img src="../imagenes/pielgrasa.png" width="170"><br><br>
 
         </section>
          <div id="video"> <section>
@@ -116,26 +151,30 @@
             
             <p>
                 Desde los serums ultraligeros de Corea hasta las cremas de lujo francesas, seleccionamos fórmulas que se adaptan al clima colombiano y a todo tipo de piel.<br>
+                <br>
                 <h2>🌸Marcas Destacadas🌸</h2>
-                🌟HydraGlow (Corea del Sur): Serums con ácido hialurónico y extracto de bambú, ideales para hidratación profunda en ciudades cálidas.HydraGlow (Corea del Sur): Serums con ácido hialurónico y extracto de bambú, ideales para hidratación profunda en ciudades cálidas.<br><br>
+                🌟HydraGlow (Corea del Sur): Serums con ácido hialurónico y extracto de bambú, ideales para hidratación profunda en ciudades cálidas.HydraGlow (Corea del Sur):<br> Serums con ácido hialurónico y extracto de bambú, ideales para hidratación profunda en ciudades cálidas.<br><br>
 
                 🌟Lumière Paris (Francia): Cremas anti-contaminación con protección UV<br><br>
 
                 🌟BioAndes (Chile): Limpiadores enzimáticos con papaya y quinoa, para una exfoliación suave en pieles sensibles.<br></p>
-        </section><section> 
-            <div id="video2">
-
-                <iframe width="760" height="315" src="https://www.youtube.com/embed/j8085p2tz5c?si=V7rh77XlJGQFs4XT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    
-            </div>
         </section>
-       <section><div id="haerin">
-      
-        <img src="../imagenes/haerin.png" width="170" height="300"><br>" alt="">
-    </div>
-
-       </section>
-        <hr>
+            <section>
+                <div class="content">
+                  
+                  <div id="video2">
+                    <iframe width="760" height="315" src="https://www.youtube.com/embed/j8085p2tz5c?si=V7rh77XlJGQFs4XT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <div class="flex-container">
+                    <div class="flex-items"><img src="../imagenes/haerin.png" width="350" height="450"></div>
+                    <div class="flex-items"><h5>
+                        🌸SKINCARE🌸
+                    </h5></div>
+                    <div class="flex-items"><img src="../imagenes/kpop magazine.png" width="350" height="450"></div>
+                 </div>
+              </section>
+        
+        
     
         <footer>
     
